@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_4</title>
+</head>
+
+<body>
+	<h2 class="center">Свойства шрифта</h2>
+	<div class="type-font">
+		<h2>Font-family</h2>
+		<p>Устанавливает семейство шрифта, которое будет использоваться для оформления текста содержимого. Список шрифтов может включать одно или несколько названий, разделенных запятой. Если в имени шрифта содержатся пробелы, например, Trebuchet MS, оно должно заключаться в одинарные или двойные кавычки. Когда браузер встречает первый шрифт в списке, он проверяет его наличие на компьютере пользователя. Если такого шрифта нет, берется следующее имя из списка и также анализируется на присутствие. Поэтому несколько шрифтов увеличивает вероятность, что хотя бы один из них будет обнаружен на клиентском компьютере. Заканчивают список обычно ключевым словом, которое описывает тип шрифта — serif, sans-serif, cursive, fantasy или monospace. Таким образом, последовательность шрифтов лучше начинать с экзотических типов и заканчивать обобщенным именем, которое задает вид начертания.</p>
+		<br>
+		<p class="serif"> Я р написан семейством шрифта serif <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam ipsum sequi odio natus consequuntur, tempore nisi nobis placeat eum ex hic voluptatum perspiciatis impedit. Fugit dolor perspiciatis mollitia porro?</p>
+		<br>
+		<p class="sans-serif">Я р написан семейством шрифта sans-serif<br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, suscipit. Commodi, exercitationem quidem asperiores aliquam quis blanditiis vero, qui dolorum fuga cumque natus. Voluptatum, accusamus. Iste laborum ipsum commodi asperiores!</p>
+		<br>
+		<p class="cursive">Я р написан семейством шрифта cursive<br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, asperiores a repudiandae beatae vel quis temporibus. Ullam impedit hic ipsa dolorem inventore, excepturi doloribus? Assumenda reiciendis omnis quos cupiditate nostrum.</p>
+		<br>
+		<p class="fantasy">Я р написан семейством шрифта fantasy<br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni deserunt amet aut eos, iste id animi dicta officiis, ullam laboriosam vitae molestiae earum? Cum, similique! Placeat inventore nam eligendi animi.</p>
+		<br>
+		<p class="monospace">Я р написан семейством шрифта monospace <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam rerum magni optio qui adipisci ipsam sed facilis numquam laudantium quas nulla vitae blanditiis expedita quos autem, repudiandae ut provident hic!</p>
+	</div>
+	<br>
+	<div class="size">
+		<h2>Font-size</h2>
+		<p>Определяет размер шрифта элемента. <br>Cам размер шрифта определяется как высота от базовой линии до верхней границы кегельной площадки, как показано на рис</p>
+		<br>
+		<img src="img/size.jpg" alt="как высчитывается размер шрифта">
+		<br>
+		<br>
+		<p class="fz-10">Мой font-size 10px </p>
+		<br>
+		<p class="fz-20">Мой font-size 20px</p>
+		<br>
+		<p class="fz-30">Мой font-size 30px</p>
+		<br>
+		<p class="fz-40">Мой font-size 40px</p>
+	</div>
+	<br>
+	<div class="style">
+		<h2>Font-style</h2>
+		<p>Определяет начертание шрифта — обычное, курсивное или наклонное. Когда для текста установлено курсивное или наклонное начертание, браузер обращается к системе для поиска подходящего шрифта. Если заданный шрифт не найден, браузер использует специальный алгоритм для имитации нужного вида текста. Результат и качество при этом могут получиться неудовлетворительными, особенно при печати документа.</p>
+		<br>
+		<p class="normal">normal - Обычное начертание текста.</p>
+		<br>
+		<p class="italic">italic -Курсивное начертание.</p>
+		<br>
+		<p class="oblique">oblique - Наклонное начертание. Курсив и наклонный шрифт при всей их похожести не одно и то же. Курсив это специальный шрифт имитирующий рукописный, наклонный же образуется путем наклона обычных знаков вправо.</p>
+		<br>
+		<p class="inherit">inherit - Наследует значение родителя.</p>
+	</div>
+	<br>
+	<div class="weight">
+		<h2>Font-weight</h2>
+		<p>Устанавливает насыщенность шрифта. Значение устанавливается от 100 до 900 с шагом 100. Сверхсветлое начертание, которое может отобразить браузер, имеет значение 100, а сверхжирное — 900. Нормальное начертание шрифта (которое установлено по умолчанию) эквивалентно 400, стандартный полужирный текст — значению 700.</p>
+		<p>Насыщенность шрифта задаётся с помощью ключевых слов: bold — полужирное начертание, normal — нормальное начертание. Также допустимо использовать условные единицы от 100 до 900.</p>
+		<br>
+		<p class="fw-100">Мой font-weight 100</p>
+		<p class="fw-200">Мой font-weight 200</p>
+		<p class="fw-300">Мой font-weight 300</p>
+		<p class="fw-400">Мой font-weight 400</p>
+		<p class="fw-500">Мой font-weight 500</p>
+		<p class="fw-600">Мой font-weight 600</p>
+		<p class="fw-700">Мой font-weight 700</p>
+		<p class="fw-800">Мой font-weight 800</p>
+		<p class="fw-900">Мой font-weight 900</p>
+		<br>
+		<p>Также возможны значения lighter и bolder</p>
+		<br>
+		<p>lighter - Изменяет начертание относительно насыщенности родительского элемента (сверхтонкое начертание).</p>
+		<br>
+		<p>bolder - Изменяет начертание относительно насыщенности родителя элемента (сверхжирное начертание).</p>
+		<br>
+		<p>Когда используется жирнее или светлее, следующая таблица используется для вычисления абсолютного веса элемента:</p>
+		<img src="img/weight.jpg" alt="таблица вычисления абсолютного веса элемента">
+		<br>
+		<br>
+		<p>Значения от 100 до 900, примерно, соответствуют следующим распространённым именам насыщенности:</p>
+		<br>
+		<img src="img/weight_value.jpg" alt="Определение веса имени">
+	</div>
+	<h2 class="center">Свойства текста</h2>
+	<div class="align">
+		<h2>Text-align</h2>
+		<br>
+		<p>text-align CSS-свойство описывает, как линейное содержимое, наподобие текста, выравнивается в блоке его родительского элемента. text-align не контролирует выравнивание элементов самого блока, но только их линейное содержимое.</p>
+		<br>
+		<p class="center">center - Выравнивание текста по центру. Текст помещается по центру горизонтали окна браузера или контейнера, где расположен текстовый блок. </p>
+		<br>
+		<p class="justify">justify - Выравнивание по ширине, что означает одновременное выравнивание по левому и правому краю. Чтобы произвести это действие браузер в этом случае добавляет пробелы между словами.</p>
+		<br>
+		<p class="left">Выравнивание текста по левому краю. В этом случае строки текста выравнивается по левому краю, а правый край располагается «лесенкой». Такой способ выравнивания является наиболее популярным на сайтах, поскольку позволяет пользователю легко отыскивать взглядом новую строку и комфортно читать большой текст.</p>
+		<br>
+		<p class="right">Выравнивание текста по правому краю. Этот способ выравнивания выступает в роли антагониста предыдущему типу. А именно, строки текста равняются по правому краю, а левый остается «рваным». Из-за того, что левый край не выровнен, а именно с него начинается чтение новых строк, такой текст читать труднее, чем, если бы он был выровнен по левому краю. Поэтому выравнивание по правому краю применяется обычно для коротких заголовков объемом не более трех строк. Мы не рассматриваем специфичные сайты, где текст приходится читать справа налево, там возможно подобный способ выравнивания и пригодится.</p>
+	</div>
+	<br>
+	<div class="decoration">
+		<h2>Text-decoration</h2>
+		<br>
+		<p>Добавляет оформление текста в виде его подчеркивания, перечеркивания, линии над текстом и мигания. Одновременно можно применить более одного стиля, перечисляя значения через пробел.</p>
+		<br>
+		<p class="through">line-through - <span>Создает перечеркнутый текст</span></p>
+		<br>
+		<p class="overline">overline - <span>Линия проходит над текстом</span></p>
+		<br>
+		<p class="underline">underline - <span>Устанавливает подчеркнутый текст</span></p>
+		<br>
+		<p class="none">none - Отменяет все эффекты, в том числе и подчеркивания у ссылок, которое задано по умолчанию.</p>
+	</div>
+	<br>
+	<div class="shadow">
+		<h2>Text-shadow</h2>
+		<br>
+		<p>CSS-свойство text-shadow добавляет тени к тексту. Свойство задаётся разделённым запятыми списком теней, которые будут применены к тексту. Любая тень описывается комбинацией смещений по осям X и Y относительно элемента, радиусом размытия и цветом.</p>
+		<br>
+		<p class="text-sh"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit consequuntur in voluptas laboriosam voluptatibus asperiores quisquam perspiciatis, eligendi, suscipit doloremque expedita, labore laborum illum non ducimus ea laudantium officia debitis.</p>
+	</div>
+	<br>
+	<div class="transform">
+		<h2>Text-transform</h2>
+		<br>
+		<p>Управляет преобразованием текста элемента в заглавные или прописные символы. Когда значение отлично от none, регистр исходного текста будет изменен.</p>
+		<br>
+		<p class="capitalize">capitalize - Первый символ каждого слова в предложении будет заглавным. Остальные символы свой вид не меняют.</p>
+		<br>
+		<p class="lowercase">lowercase - Все символы текста становятся строчными (нижний регистр).</p>
+		<br>
+		<p class="uppercase">Все символы текста становятся прописными (верхний регистр).</p>
+	</div>
+	<br>
+	<div class="height">
+		<h2>Line-height</h2>
+		<br>
+		<p>Свойство CSS line-height устанавливает величину пространства между строками, например в тексте. В блочных элементах оно указывает минимальную высоту блоков строк внутри элемента. В <a href="https://developer.mozilla.org/ru/docs/Web/CSS/Replaced_element" target="_blank">незамещаемых</a> внутристрочных элементах —указывает высоту, которая используется для вычисления высоты блоков строк.</p>
+		<br>
+		<p>Значения</p>
+		<br>
+		<dl>
+			<dt>normal</dt>
+			<dd class="normal">Зависит от пользовательского браузера. Компьютерные браузеры (включая Firefox) используют значение по умолчанию приблизительно 1.2, в зависимости от элементов <code>font-family.</code></dd>
+			<br>
+			<dt>(число)</dt>
+			<dd class="number">Значением line-height будет результат умножения указанного числа (без именования) на размер шрифта элементов. Указанное число, по сути, множитель. В большинстве случаев это предпочтительный способ указания значения line-height, потому что позволяет избежать непредвиденных результатов при наследовании.</dd>
+			<dt>(величина)</dt>
+			<dd class="value">Указанная величины используется при вычислении высоты блока строки.</dd>
+			<dt>(процентное соотношение)</dt>
+			<dd class="percent">Относительно размера шрифта самого элемента.</dd>
+		</dl>
+	</div>
+	<br>
+</body>
+
+</html>
